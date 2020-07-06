@@ -8,6 +8,9 @@ package-lock.json
 tests/**/coverage/
 api/venv/
 api/__pycache__/
+api/migrations/
+api/logs/
+api/app/books.db
 
 # Editor directories and files
 .idea
