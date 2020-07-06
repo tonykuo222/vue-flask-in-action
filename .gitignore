@@ -6,6 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 tests/**/coverage/
+api/venv/
+api/__pycache__/
 
 # Editor directories and files
 .idea
