@@ -7,6 +7,7 @@ yarn-error.log*
 package-lock.json
 tests/**/coverage/
 api/venv/
+api/.DS_Store
 api/__pycache__/
 api/migrations/
 api/logs/
