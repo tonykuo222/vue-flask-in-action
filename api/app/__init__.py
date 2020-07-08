@@ -14,7 +14,6 @@ from app.utils.log import DayRotatingHandler
 from app.utils import responses as resp
 from app.utils.responses import response_with
 
-
 db = SQLAlchemy()
 cors = CORS()
 migrate = Migrate()
