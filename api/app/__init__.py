@@ -74,7 +74,7 @@ def register_logging(app):
 
 
 def register_plugins(app):
-    cors.init_app(app, supports_credentials=True)
+    cors.init_app(app, supports_credentials=False)
     db.init_app(app)
     marshmallow.init_app(app)
     migrate.init_app(app, db)

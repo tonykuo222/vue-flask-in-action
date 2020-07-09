@@ -66,4 +66,4 @@ def delete_author(id):
     get_author = Author.query.get_or_404(id)
     db.session.delete(get_author)
     db.session.commit()
-    return response_with(resp.SUCCESS_204)
+    return response_with(resp.SUCCESS_200)
