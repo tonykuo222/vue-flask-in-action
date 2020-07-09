@@ -4,13 +4,6 @@
       <el-col :span="1.5">
         <el-button type="primary" icon="el-icon-plus" size="mini" @click="handleAdd">新增</el-button>
       </el-col>
-      <!--
-      <el-col :span="1.5">
-        <el-button type="success" icon="el-icon-edit" size="mini" @click="handleUpdate">修改</el-button>
-      </el-col>
-      <el-col :span="1.5">
-        <el-button type="danger" icon="el-icon-delete" size="mini" @click="handleDelete">删除</el-button>
-      </el-col>-->
     </el-row>
     <el-table :data="tableData" border style="width: 100%">
       <el-table-column prop="id" label="序号" width="180"></el-table-column>
