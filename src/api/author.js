@@ -22,10 +22,11 @@ export function getAuthorInfoById(id) {
   })
 }
 
-export function UpdateAuthorInfoById(id) {
+export function UpdateAuthorInfoById(data) {
   return request({
-    url: "/author/" + id,
+    url: "/author/" + data.id,
     method: 'put',
+    data: data
   })
 }
 

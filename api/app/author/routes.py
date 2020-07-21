@@ -39,7 +39,7 @@ def update_author_detail(id):
     data = request.get_json()
     get_author = Author.query.get_or_404(id)
     get_author.first_name = data['first_name']
-    get_author_last_name = data['last_name']
+    get_author.last_name = data['last_name']
     db.session.add(get_author)
     db.session.commit()
     author_schema = AuthorSchema()
